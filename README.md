@@ -1,1 +1,1 @@
-<h1 align="center">LeetCode streak </h1>
+<h1 align="center">DSA Streak</h1>
