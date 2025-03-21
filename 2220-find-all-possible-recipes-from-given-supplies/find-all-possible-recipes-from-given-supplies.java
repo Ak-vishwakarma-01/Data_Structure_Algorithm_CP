@@ -18,7 +18,7 @@ class Solution {
             String ing = q.peek(); q.poll();
             if (!graph.containsKey(ing)) continue; 
             for(String rec: graph.get(ing)){
-                if (!indegree.containsKey(rec)) continue;
+                
                 indegree.put(rec, indegree.get(rec) - 1);
                 
                 if (indegree.get(rec) == 0) {
