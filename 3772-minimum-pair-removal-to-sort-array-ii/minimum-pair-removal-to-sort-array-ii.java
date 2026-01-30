@@ -8,19 +8,6 @@ class Solution {
             this.sum = sum;
             this.idx = idx;
         }
-
-        @Override
-        public boolean equals(Object o) {
-            if (this == o) return true;
-            if (!(o instanceof Pair)) return false;
-            Pair p = (Pair) o;
-            return sum == p.sum && idx == p.idx;
-        }
-
-        @Override
-        public int hashCode() {
-            return Objects.hash(sum, idx);
-        }
     }
 
     public int minimumPairRemoval(int[] nums) {
